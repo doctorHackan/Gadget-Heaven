@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import Gadgets from '/src/Utils/Gadgets';
+import Gadgets from '../../Utils/Gadgets';
 import GadgetCard from '../GadgetCard/GadgetCard';
 import Query from '../Query/Query';
 

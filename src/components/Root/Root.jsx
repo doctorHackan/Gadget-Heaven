@@ -2,7 +2,7 @@ import React,{useEffect, useState} from 'react';
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
 import { Outlet } from 'react-router';
-import {getFromLS, addToLS} from '/src/Utils/LS';
+import {getFromLS, addToLS} from '../../Utils/LS';
 import { ToastContainer,toast } from 'react-toastify';
 
 const Root = () => {

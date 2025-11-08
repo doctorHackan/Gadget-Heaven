@@ -1,4 +1,5 @@
 import React from 'react';
+import BannerImage from '../../assets/banner.jpg';
 
 const Hero = () => {
     return (
@@ -9,7 +10,7 @@ const Hero = () => {
                 <a className='btn btn-outline' href="#shop">Shop Now</a>
             </div>
             <div className='bg-[rgba(255,255,255,0.4)] border-2 border-white rounded-2xl absolute -bottom-55 md:left-1/2 md:-translate-x-1/2 p-4 text-center w-fit'>
-                <img className='object-cover max-w-full rounded-2xl h-[400px] w-[700px]' src="/src/assets/banner.jpg" alt="gadget banner photo" />
+                <img className='object-cover max-w-full rounded-2xl h-[400px] w-[700px]' src={BannerImage} alt="gadget banner photo" />
             </div>
         </div>
     );
