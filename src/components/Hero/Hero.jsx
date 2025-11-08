@@ -9,7 +9,7 @@ const Hero = () => {
                 <p className='text-xl max-w-[60%] container mx-auto text-center mb-5'>Explore the latest gadgets that will take your experiences to the next level in the world of digital science and technology.</p>
                 <a className='btn btn-outline' href="#shop">Shop Now</a>
             </div>
-            <div className='bg-[rgba(255,255,255,0.4)] border-2 border-white rounded-2xl absolute -bottom-55 md:left-1/2 md:-translate-x-1/2 p-4 text-center w-fit'>
+            <div className='bg-[rgba(255,255,255,0.4)] border-2 border-white rounded-2xl absolute -bottom-70 md:left-1/2 md:-translate-x-1/2 p-4 text-center w-fit'>
                 <img className='object-cover max-w-full rounded-2xl h-[400px] w-[700px]' src={BannerImage} alt="gadget banner photo" />
             </div>
         </div>
